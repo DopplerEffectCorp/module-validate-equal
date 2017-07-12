@@ -1,0 +1,22 @@
+{
+  "name": "validate-equal",
+  "version": "0.0.0",
+  "description": "Doppler Effect validate equal directive",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DopplerEffectCorp/module-validate-equal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DopplerEffectCorp/module-validate-equal/issues"
+  },
+  "homepage": "https://github.com/DopplerEffectCorp/module-validate-equal#readme",
+  "dependencies": {
+    "@angular/common": "^4.2.2",
+    "@angular/forms": "^4.2.2",
+    "@angular/core": "^4.2.2",
+    "rxjs": "^5.4.0",
+    "zone.js": "^0.8.12"
+  }
+}
