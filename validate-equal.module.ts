@@ -1,7 +1,7 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {ReactiveFormsModule} from '@angular/forms';
-import {EqualValidatorDirective} from './validate-equal.directive';
+import {ValidateEqualDirective} from './validate-equal.directive';
 
 @NgModule({
     imports: [
