@@ -14,12 +14,12 @@ import {
     providers: [
         {
             provide: NG_VALIDATORS,
-            useExisting: forwardRef(() => EqualValidatorDirective),
+            useExisting: forwardRef(() => ValidateEqualDirective),
             multi: true,
         },
     ],
 })
-export class EqualValidatorDirective implements Validator {
+export class ValidateEqualDirective implements Validator {
     constructor(@Attribute('validateEqual') public validateEqual: string,
                 @Attribute('reverse') public reverse: string) {
     }

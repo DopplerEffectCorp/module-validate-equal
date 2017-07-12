@@ -8,8 +8,8 @@ import {EqualValidatorDirective} from './validate-equal.directive';
         CommonModule,
         ReactiveFormsModule,
     ],
-    declarations: [EqualValidatorDirective],
-    exports: [EqualValidatorDirective],
+    declarations: [ValidateEqualDirective],
+    exports: [ValidateEqualDirective],
 })
-export class EqualValidatorDirectiveModule {
+export class ValidateEqualDirectiveModule {
 }
